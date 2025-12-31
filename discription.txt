@@ -1,0 +1,25 @@
+Mini Project 
+
+GUI Calculator Application 
+A Tkinter-Based Desktop Application
+
+What is Tkinter?
+Tkinter is Python's built-in library for creating Graphical User Interface (GUI) Application
+It Provides widgets like Window, Button, Entry, Label, etc.
+It follows an event-driven programming model(code runs when a user clicks a button). 
+
+Purpose of this program:
+Creates a Calculator GUI
+Allow user to: 
+    Enter numbers and operaors
+    Perform arithmetic Calculations
+    Clear the input
+Uses Python's eval() function to evaluate mathematical expressions.
+
+Key Concepts Used:
+Concept                     Description
+Tkinter widgets             Tk, Enter, Button
+Event handling              Button click actions
+Lambda functions            Passing button values
+Grid layout                 Positioning UI elements
+Exception handling          Handling invalid expressions
