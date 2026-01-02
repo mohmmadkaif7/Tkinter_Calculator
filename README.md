@@ -1,78 +1,88 @@
-GUI Calculator Using Python Tkinter
-📌 Project Overview
 
-This project is a desktop-based GUI calculator developed using Python and the Tkinter library. It performs basic arithmetic operations through an interactive graphical interface and demonstrates core concepts of GUI programming and event-driven design.
+---
 
-🛠️ Technologies Used
+# GUI Calculator Using Python Tkinter
 
-Programming Language: Python 3
+## 📌 Project Overview
 
-GUI Library: Tkinter
+This project is a **desktop-based GUI calculator** developed using **Python** and the **Tkinter** library. It performs basic arithmetic operations through an interactive graphical interface and demonstrates core concepts of GUI programming and event-driven design.
 
-IDE: Any Python-supported IDE (VS Code, PyCharm, IDLE)
+---
 
-✨ Features
+## 🛠️ Technologies Used
 
-Basic arithmetic operations: +, -, *, /
+* **Programming Language:** Python 3
+* **GUI Library:** Tkinter
+* **IDE:** Any Python-supported IDE (VS Code, PyCharm, IDLE)
 
-Dynamic button generation
+---
 
-Clear (C) and Backspace (<) functionality
+## ✨ Features
 
-Error handling for invalid expressions
+* Basic arithmetic operations: `+`, `-`, `*`, `/`
+* Dynamic button generation
+* Clear (`C`) and Backspace (`<`) functionality
+* Error handling for invalid expressions
+* Fixed-size, user-friendly interface
 
-Fixed-size, user-friendly interface
+---
 
-📂 Project Structure
+## 📂 Project Structure
+
+```
 GUI_Calculator/
 │
 ├── calculator.py        # Main Python source code
 ├── README.md            # Project documentation
 └── GUI_Calculator_Project_Report.docx
+```
 
-▶️ How to Run the Project
+---
 
-Ensure Python 3 is installed on your system
+## ▶️ How to Run the Project
 
-Open a terminal or command prompt
+1. Ensure **Python 3** is installed on your system
+2. Open a terminal or command prompt
+3. Navigate to the project directory
+4. Run the following command:
 
-Navigate to the project directory
+   ```bash
+   python calculator.py
+   ```
+5. The calculator window will open
 
-Run the following command:
+---
 
-python calculator.py
+## ⚙️ How It Works
+
+* User inputs numbers and operators using buttons
+* Input is displayed in the entry widget
+* Pressing `=` evaluates the expression
+* Results or error messages are displayed instantly
+
+---
+
+## 🚫 Limitations
+
+* Uses Python’s `eval()` function (not safe for complex inputs)
+* Supports only basic arithmetic operations
+* No keyboard input support
+
+---
+
+## 🚀 Future Enhancements
+
+* Replace `eval()` with a safer expression parser
+* Add scientific calculator functions
+* Enable keyboard input
+* Improve UI with themes and layouts
+
+---
+
+## 📄 Conclusion
+
+This project serves as a foundational example of **GUI application development using Python Tkinter**. It is suitable for academic purposes and can be extended into more advanced calculator applications.
+
+---
 
 
-The calculator window will open
-
-⚙️ How It Works
-
-User inputs numbers and operators using buttons
-
-Input is displayed in the entry widget
-
-Pressing = evaluates the expression
-
-Results or error messages are displayed instantly
-
-🚫 Limitations
-
-Uses Python’s eval() function (not safe for complex inputs)
-
-Supports only basic arithmetic operations
-
-No keyboard input support
-
-🚀 Future Enhancements
-
-Replace eval() with a safer expression parser
-
-Add scientific calculator functions
-
-Enable keyboard input
-
-Improve UI with themes and layouts
-
-📄 Conclusion
-
-This project serves as a foundational example of GUI application development using Python Tkinter. It is suitable for academic purposes and can be extended into more advanced calculator applications.
